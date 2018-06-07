@@ -1,4 +1,4 @@
-FROM ravishtiwari/jenkins-slave-agent
+FROM ravishtiwari/docker-jenkins-slave
 MAINTAINER Ravish Tiwari <ravishktiwari@hotmail.com>
 ENV DEBIAN_FRONTEND noninteractive
 RUN echo "-- Install Node.js 8 --"
