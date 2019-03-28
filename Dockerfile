@@ -16,6 +16,7 @@ RUN curl -L https://github.com/docker/compose/releases/download/1.18.0/docker-co
 RUN add-apt-repository ppa:chris-lea/zeromq
 RUN apt-get update
 RUN apt-get install libzmq3-dbg libzmq3-dev libzmq3 -yq
+RUN pip install aws-sam-
 RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
     libkrb5-dev \
